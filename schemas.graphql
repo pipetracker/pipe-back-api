@@ -1,0 +1,6 @@
+# import Query.*, Mutation.*, * from "./schemas/users.graphql"
+# import Query.*, Mutation.*, * from "./schemas/companies.graphql"
+# import Query.*, Mutation.*, * from "./schemas/contacts.graphql"
+# import Query.*, Mutation.*, * from "./schemas/opportunities.graphql"
+# import Query.*, Mutation.*, * from "./schemas/activities.graphql"
+# import Query.*, Mutation.*, * from "./schemas/addresses.graphql"

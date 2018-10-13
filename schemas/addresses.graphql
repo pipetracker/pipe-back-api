@@ -1,0 +1,18 @@
+type Query {
+  addresses: [address]
+}
+
+type address {
+  id: ID
+  name: String
+  city: String
+  state: String
+  country: String
+  position: position
+}
+
+type position {
+  x: Int
+  y: Int
+  srid: Int
+}

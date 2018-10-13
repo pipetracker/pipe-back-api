@@ -1,0 +1,15 @@
+type Query {
+    activities: [activity]
+}
+
+type activity {
+    type: activityType
+    date: Timestammp
+    description: String
+    contacts: [contact]
+}
+
+type activityType {
+    id: ID
+    name: String
+}

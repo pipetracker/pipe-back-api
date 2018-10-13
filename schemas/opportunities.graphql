@@ -1,0 +1,25 @@
+type Query {
+  opportunities: [opportunity]
+}
+
+type opportunity {
+    id: ID
+    amount: Int
+    name: String
+    owner: user
+    probability: Int
+    estimatedClosedDate: Date
+    paymentSchedule: [payment]
+    stage: opportunityStage
+    statusDate: Date
+}
+
+type payment {
+    value: Float
+    date: Date
+}
+
+type opportunityStage {
+    id: ID
+    stage: String
+}

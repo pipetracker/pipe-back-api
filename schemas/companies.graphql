@@ -1,0 +1,12 @@
+type Query {
+    companies: [company]
+}
+
+type company {
+    id: ID
+    name: String
+    address: address
+    headquarter: address
+    employes: Int
+    annualRevenue: Int
+}

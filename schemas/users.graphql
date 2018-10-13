@@ -1,0 +1,10 @@
+  type Query {
+    users: [user]
+  }
+
+  type user {
+    id: ID
+    name: String
+    email: String
+    alias: String
+  }

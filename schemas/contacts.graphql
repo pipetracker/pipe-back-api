@@ -1,0 +1,18 @@
+type Query {
+    contacts: [contact]
+}
+
+type contact {
+    id: ID
+    name: String
+    email: String
+    company: company
+    deals: [opportunity]
+    relationships: [relationship]
+    photo: String
+}
+
+type relationship {
+    contact: contact
+    type: String
+}
